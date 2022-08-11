@@ -1,26 +1,28 @@
-
-
 :root {
   --clr-main-bg: #000;
   --clr-text: #fff;
-  
+  --clr-purple-light : #D815FF;
+  --clr-purple-dark : #AE0BCF;
+  --clr-blue-light : #2BBCFF;    
+  --clr-blue-dark : #2F03AA;
+
 
   --ff-header: 'Orbitron', sans-serif;
-  --ff-regular : 'Montserrat', sans-serif;
+  --ff-regular: 'Montserrat', sans-serif;
 
-  --fs-hero-header:48px;
+  --fs-hero-header: 48px;
   --fs-header: 42px;
-  --fs-sub-header:22px;
-  --fs-para:18px;
+  --fs-sub-header: 22px;
+  --fs-para: 18px;
   --fs-regular: 14px;
-  --fs-icon:36px;
-  --fs-small-icon:24px;
+  --fs-icon: 36px;
+  --fs-small-icon: 24px;
 
   --fw-200: 200;
   --fw-light: 300;
   --fw-regular: 400;
   --fw-bold: 700;
-  --fw-bolder:900;
+  --fw-bolder: 900;
 
   --gen-padding: 24px 40px;
 
@@ -72,17 +74,18 @@ html {
 
 body {
   font-family: var(--ff-regular);
+  background-color: var(--clr-main-bg);
 }
 
 
 /* All section  */
 
 .section {
-    margin-block: 2rem;
+  margin-block: 2rem;
 }
 
 /* All container */
 
-.container{
-    padding-inline: 128px;
+.container {
+  padding-inline: 64px;
 }
