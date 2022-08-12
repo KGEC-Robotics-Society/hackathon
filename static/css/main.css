@@ -92,7 +92,7 @@ body {
 /* All container */
 
 .container {
-  padding-inline: 40px;
+  padding: 40px;
 }
 
 /* Reponsive  */
@@ -100,5 +100,6 @@ body {
 @media only screen and (max-width: 768px) {
   .container {
     padding-inline: 24px;
+    padding-block: 40px;
   }
 }
