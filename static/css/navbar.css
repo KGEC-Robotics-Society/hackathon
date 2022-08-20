@@ -42,11 +42,10 @@
 }
 
 header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  /* background-color: var(--clr-black-light); */
 }
 
 .page-wrapper {
@@ -96,22 +95,27 @@ header {
   transition: all 0.3s ease-out;
 
   background-image: linear-gradient(var(--clr-text), var(--clr-text));
-  background-size: 0 2px, auto;
+  background-size: 0 1px, auto;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
 
 .nav-item a:hover {
   color: var(--clr-text-light);
-  background-size: 100% 2px, auto;
+  background-size: 100% 1px, auto;
 }
 
-/* Color change on scroll  */
+/* Navbar fixed on scroll  */
 
-.navbar-section.scrolled {
-  background-color: var(--clr-black-light) !important;
-  transition: background-color 200ms linear;
-  z-index: 100;
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--clr-black-light);
+  z-index: 200;
+  /* transition: all 0.2s ease-in-out; */
+
 }
 
 /* SEARCH FUNCTION */
