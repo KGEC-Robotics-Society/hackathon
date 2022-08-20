@@ -1,0 +1,125 @@
+:root {
+  --clr-main-bg: #000;
+  --clr-text: #fff;
+  --clr-purple-light: #d815ff;
+  --clr-purple-dark: #ae0bcf;
+  --clr-blue-light: #2bbcff;
+  --clr-blue-dark: #2f03aa;
+
+  --clr-text-light: rgba(255, 255, 255, 0.8);
+  --clr-black-light: #1d1d1d;
+
+  --ff-style: "Orbitron", sans-serif;
+  --ff-regular: "Montserrat", sans-serif;
+
+  --fs-hero-header: 48px;
+  --fs-header: 42px;
+  --fs-title-text: 20px;
+  --fs-text: 16px;
+  --fs-regular: 14px;
+  --fs-icon: 36px;
+  --fs-small-icon: 24px;
+
+  --fw-200: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+  --fw-bolder: 900;
+
+  --gen-padding: 24px 40px;
+
+  --gen-transition: 0.2s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hero-section {
+  background-image: url("../assets/optimised.png"),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hero-container {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.hero-container .container-title,
+.hero-container .event-countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-container .container-title {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.hero-container .container-title .gradient-title {
+  font-size: clamp(60px, 5vw + 16px, 96px);
+  margin-bottom: 0;
+}
+
+.event-title {
+  font-size: 22px;
+  font-family: var(--ff-style);
+  width: 100%;
+}
+
+.countdown-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5%;
+  margin-bottom: 16px;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-block: 16px;
+  font-family: var(--ff-style);
+  background: linear-gradient(to bottom, var(--clr-purple-dark), #005780);
+  border-radius: 16px 0 0 0;
+}
+
+.countdown-item .countdown-title {
+  letter-spacing: 1px;
+}
+
+.countdown-item .countdown-number {
+  font-size: clamp(24px, 3vw + 16px, 48px);
+}
+
+@media only screen and (max-width: 624px) {
+  .event-title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .event-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .countdown-item .countdown-title {
+    font-size: 11px;
+  }
+}

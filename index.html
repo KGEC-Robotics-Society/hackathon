@@ -1,141 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ROBOTA</title>
 
     <!-- Stylesheets links  -->
-    <link rel="stylesheet" href="./static/css/main.css">
-    <link rel="stylesheet" href="./static/css/criteria.css">
-    <link rel="stylesheet" href="./static/css/faq.css">
-    <link rel="stylesheet" href="./static/css/footer.css">
-    <link rel="stylesheet" href="./static/css/get-set-go.css">
-    <link rel="stylesheet" href="./static/css/hero.css">
-    <link rel="stylesheet" href="./static/css/navbar.css">
-    <link rel="stylesheet" href="./static/css/problem-statement.css">
-    <link rel="stylesheet" href="./static/css/timeline.css">
+    <link rel="stylesheet" href="./static/css/main.css" />
+    <link rel="stylesheet" href="./static/css/navbar.css" />
+    <link rel="stylesheet" href="./static/css/hero.css" />
+    <link rel="stylesheet" href="./static/css/timeline.css" />
+    <link rel="stylesheet" href="./static/css/problem-statement.css" />
+    <link rel="stylesheet" href="./static/css/criteria.css" />
+    <link rel="stylesheet" href="./static/css/faq.css" />
+    <link rel="stylesheet" href="./static/css/get-set-go.css" />
+    <link rel="stylesheet" href="./static/css/footer.css" />
 
     <!-- Font awesome cdn  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Google fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Orbitron:wght@400;500;700&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Orbitron:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- Navbar starts  -->
 
-    <header class="navbar-section ">
-        <div class="navbar-container">
-            <div class="page-wrapper">
-                <div class="nav-wrapper">
-                    <nav class="navbar">
-                        <img src="" alt="Company Logo">
-                        <div class="menu-toggle" id="mobile-menu">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                        </div>
-                        <ul class="nav no-search">
-                            <li class="nav-item"><a href="#">Home</a></li>
-                            <li class="nav-item"><a href="#timeline">Timeline</a></li>
-                            <li class="nav-item"><a href="#problemStatements">Problems</a></li>
-                            <li class="nav-item"><a href="#criteria">Criteria</a></li>
-                            <li class="nav-item"><a href="#faq">FAQs</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+    <header class="navbar-section">
+      <div class="container navbar-container">
+        <div class="page-wrapper">
+          <div class="nav-wrapper">
+            <nav class="navbar">
+              <img src="./static/assets/robota.png" alt="Company Logo" />
+              <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+              <ul class="nav no-search">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#timeline">Timeline</a></li>
+                <li class="nav-item">
+                  <a href="#problemStatements">Problems</a>
+                </li>
+                <li class="nav-item"><a href="#criteria">Criteria</a></li>
+                <li class="nav-item"><a href="#faq">FAQs</a></li>
+              </ul>
+              <a href="#" class="btn cta-btn btn-primary">Register</a>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
     <!-- Navbar ends  -->
 
     <!-- Hero section starts  -->
 
     <section class="hero-section section" id="hero">
-        <div class="container hero-container">
-            <div class="container-title">
-                <h1></h1>
-            </div>
+      <div class="container hero-container">
+        <div class="container-title">
+          <p class="title-text" style="max-width: 500px">
+            KGEC Robotics Society presents you the
+            <span class="text-color-blue">Autumn Hackathon</span>
+          </p>
+          <h1 class="gradient-title">ROBOTA</h1>
+          <p class="regular-text">
+            KGEC Robotics Society presents you the Autumn Hackathon. It's an
+            amazing opportunity for enthusiastic coders to participate and
+            enhance their learnings.
+          </p>
         </div>
+        <div class="event-countdown">
+          <h3 class="event-title">
+            Event Name: &nbsp;&nbsp;&nbsp;<span class="text-color-purple"
+              >2nd - 5th August, 2022</span
+            >
+          </h3>
+          <div class="countdown-box">
+            <div class="countdown-item">
+              <span class="countdown-number">62</span>
+              <span class="countdown-title">Days</span>
+            </div>
+            <div class="countdown-item">
+              <span class="countdown-number">12</span>
+              <span class="countdown-title">Hours</span>
+            </div>
+            <div class="countdown-item">
+              <span class="countdown-number">45</span>
+              <span class="countdown-title">Minutes</span>
+            </div>
+            <div class="countdown-item">
+              <span class="countdown-number">32</span>
+              <span class="countdown-title">Seconds</span>
+            </div>
+          </div>
+          <a href="#" class="btn cta-btn btn-primary">Register</a>
+        </div>
+      </div>
     </section>
     <!-- Hero section ends  -->
 
     <!-- Timeline section starts  -->
 
     <section class="timeline-section section" id="timeline">
-        <div class="container timeline-container">
-            <div class="container-title">
-                <h1></h1>
-            </div>
+      <div class="container timeline-container">
+        <div class="container-title">
+          <h1 class="gradient-title">TIMELINE</h1>
         </div>
+        <div class="timeline-box">
+          <div class="timeline-item">
+            <h3 class="event-title timeline-date">August 1</h3>
+            <div class="timeline-item-content">
+              <h3 class="event-title timeline-event-title text-color-blue">
+                Event Name
+              </h3>
+              <p class="event-desc regular-text">
+                Standard dummy text ever Lorem, ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <h3 class="event-title timeline-date">August 1</h3>
+            <div class="timeline-item-content">
+              <h3 class="event-title timeline-event-title text-color-blue">
+                Event Name
+              </h3>
+              <p class="event-desc regular-text">
+                Standard dummy text ever Lorem, ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <h3 class="event-title timeline-date">August 1</h3>
+            <div class="timeline-item-content">
+              <h3 class="event-title timeline-event-title text-color-blue">
+                Event Name
+              </h3>
+              <p class="event-desc regular-text">
+                Standard dummy text ever Lorem, ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <h3 class="event-title timeline-date">August 1</h3>
+            <div class="timeline-item-content">
+              <h3 class="event-title timeline-event-title text-color-blue">
+                Event Name
+              </h3>
+              <p class="event-desc regular-text">
+                Standard dummy text ever Lorem, ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <h3 class="event-title timeline-date">August 1</h3>
+            <div class="timeline-item-content">
+              <h3 class="event-title timeline-event-title text-color-blue">
+                Event Name
+              </h3>
+              <p class="event-desc regular-text">
+                Standard dummy text ever Lorem, ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Timeline section ends  -->
 
     <!-- Problem Statement section starts  -->
 
     <section class="problem-statement-section section" id="problemStatements">
-        <div class="container problem-statement-container">
-            <div class="container-title">
-                <h1></h1>
-            </div>
+      <div class="container problem-statement-container">
+        <div class="container-title">
+          <h1></h1>
         </div>
+      </div>
     </section>
     <!-- Problem Statement section ends  -->
 
     <!-- Criteria section starts  -->
 
-    <section class="criteria-section section" id="criteria"> 
-        <div class="container criteria-container">
-            <div class="container-title">
-                <h1></h1>
-            </div>
+    <section class="criteria-section section" id="criteria">
+      <div class="container criteria-container">
+        <div class="container-title">
+          <h1></h1>
         </div>
+      </div>
     </section>
     <!-- Criteria section ends  -->
 
     <!-- FAQ section starts  -->
 
     <section class="faq-section section" id="faq">
-        <div class="container faq-container">
-            <div class="container-title">
-                <h1></h1>
-            </div>
+      <div class="container faq-container">
+        <div class="container-title">
+          <h1></h1>
         </div>
+      </div>
     </section>
     <!-- FAQ section ends  -->
 
     <!-- Get-set-go section starts  -->
 
-    <section class="get-set-go-section ">
-        <div class="container get-set-go-container">
-            <div class="container-title">
-                <h1></h1>
-            </div>
+    <section class="get-set-go-section">
+      <div class="container get-set-go-container">
+        <div class="container-title">
+          <h1></h1>
         </div>
+      </div>
     </section>
     <!-- Get-set-go section ends  -->
 
     <!-- Footer starts  -->
 
-    <footer class="footer-section ">
-        <div class="footer-container ">
-
-        </div>
+    <footer class="footer-section">
+      <div class="footer-container"></div>
     </footer>
     <!-- Footer ends  -->
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="./static/js/navbar.js"></script>
-
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./static/js/navbar.js"></script>
 </html>
