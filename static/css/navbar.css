@@ -224,6 +224,20 @@ nav.nav__b a:active {
 
 /* Mobile Devices - Phones/Tablets */
 
+/* Width */
+@media only screen and (max-width: 1182px) {
+  .vertical__line{
+    left: 1.1%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .vertical__line{
+    top: 48%;
+    left: 0.7%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   /* MOBILE NAVIGATION */
 
@@ -262,5 +276,61 @@ nav.nav__b a:active {
 
   .mobile-nav {
     transform: translate(0%) !important;
+  }
+  nav.nav__b{
+    left: 0%;
+
+  }
+}
+@media only screen and (max-width: 585px){
+  nav.nav__b{
+    left: -2%;
+  }
+}
+@media only screen and (max-width: 425px){
+  nav.nav__b{
+    left: -2%;
+  }
+  nav.nav__b a{
+    font-size: 12px;
+  }
+  
+}
+
+/* Height */
+@media only screen and (max-height: 915px) {
+  .vertical__line{
+    top: 85%;
+  }
+}
+@media only screen and (max-height: 896px) {
+  .vertical__line{
+    top: 55%;
+  }
+}
+@media only screen and (max-height: 844px) {
+  .vertical__line{
+    top: 55%;
+  }
+}
+@media only screen and (max-height: 740px) {
+  .vertical__line{
+    top: 53%;
+  }
+}
+@media only screen and (max-height: 677px) {
+  .vertical__line{
+    top: 50%;
+  }
+}
+@media only screen and (max-height: 640px) {
+  .vertical__line{
+    top: 53%;
+    left: .5%;
+  }
+}
+@media only screen and (max-height: 360px) {
+  .vertical__line{
+    top: 30%;
   }
 }
