@@ -114,6 +114,61 @@ header {
   z-index: 100;
 }
 
+.vertical__line{
+  width: 2px;
+  height: 25vh;
+  background: linear-gradient( 180deg, var(--clr-blue-light), var(--clr-purple-light) );;
+  z-index: 800;
+  top: 50%;
+  margin-left: 2.25%;
+  position: fixed;
+  display: block;
+}
+nav.nav__b{
+  /* background: rgba(254, 254, 254, 0.1); */
+  width: max-content;
+  display: block;
+  padding: 0.7rem;
+  z-index: 801;
+  position: fixed;
+  left: 1%;
+  /* transform: translateX(0%); */
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* border-bottom: 2px solid rgba(254, 254, 254, 0.5); */
+  gap: 32px;
+  border-radius: 3rem;
+  /* backdrop-filter: blur(15px); */
+}
+nav.nav__b a{
+  background: #000;
+  font-size: 24px;
+  /* padding: 0.9rem; */
+  /* border-radius: 50%; */
+  display: flex;
+  color: var(--clr-blue-light);
+  /* border-bottom: 2px solid rgba(254, 254, 254, 0.5); */
+  font-size: 1.1rem;
+  /* backdrop-filter: blur(15px); */
+}
+
+nav.nav__b a:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+nav.nav__b a.Linkedin:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: #0077b5;
+}
+nav.nav__b a.Discord:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: #7289da;
+}
+nav.nav__b a:active {
+  background: #191919;
+  color: #fff;
+}
 /* SEARCH FUNCTION */
 
 .no-search {
