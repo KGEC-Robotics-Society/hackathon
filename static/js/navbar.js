@@ -1,12 +1,25 @@
+const hero = document.getElementById("hero");
+const header = document.querySelector(".navbar-section");
 
 $('.menu-toggle').click(function () {
 	$(".nav").toggleClass("mobile-nav");
 	$(this).toggleClass("is-active");
 });
 
-$(function () {
-	$(document).scroll(function () {
-		var $nav = $(".navbar-section");
-		$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+
+const observer = new IntersectionObserver(
+	(entries) => {
+		const ent = entries[0];
+		ent.isIntersecting === false
+			? header.classList.add("sticky")
+			: header.classList.remove("sticky")
+	},
+	{
+
+		root: null,
+		rootMargin: "",
+		threshold: "0"
+
 	});
-});
+
+observer.observe(hero);
