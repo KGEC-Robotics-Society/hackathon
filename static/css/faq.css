@@ -11,12 +11,13 @@
 #faq .container-title h1 {
     /* color: var(--clr-purple-light); */
     text-align: center;
-    font-family: var(--ff-header);
+    font-family: var(--ff-style);
     font-size: var(--fs-header);
-    padding-bottom: 1.7rem;
+    padding-bottom: 2.5rem;
     background: linear-gradient(to right, #D815FF,#2BBCFF);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    margin-inline: auto;
 }
 
 .accordion {

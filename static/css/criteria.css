@@ -26,12 +26,28 @@
     font-family: var(--ff-style);
 
 }
-.criteria-content{
-    font-family: var(--ff-regular);
+
+.criteria-content p{
+    font-family: var(--fs-text);
     text-align: left;
     padding-bottom: 1.5rem;
     color: var(--clr-text);
     font-size: 16px;
     font-weight: 500;
     line-height: 25px;
+}
+
+@media only screen and (max-width: 448px) {
+
+    .criteria-content-heading{
+        font-size: var(--fs-text);    
+    }
+
+    .criteria-content p{
+        font-size: var(--fs-regular);
+    }
+    #criteria .container-title h1 {
+        font-size: 32px;
+        
+    }
 }
