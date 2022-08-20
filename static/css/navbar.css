@@ -93,11 +93,25 @@ header {
   font-size: var(--fs-regular);
   font-weight: var(--fw-regular);
   text-decoration: none;
-  transition: color 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+  background-image: linear-gradient(var(--clr-text), var(--clr-text));
+  background-size: 0 2px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .nav-item a:hover {
   color: var(--clr-text-light);
+  background-size: 100% 2px, auto;
+}
+
+/* Color change on scroll  */
+
+.navbar-section.scrolled {
+  background-color: var(--clr-black-light) !important;
+  transition: background-color 200ms linear;
+  z-index: 100;
 }
 
 /* SEARCH FUNCTION */
