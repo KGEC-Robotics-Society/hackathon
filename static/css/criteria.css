@@ -3,12 +3,12 @@
     max-width: 1080px;
     margin: auto;
 }
-#criteria .container-title{
+/* #criteria .container-title{
     padding-bottom: 3rem;
 }
 
 #criteria .container-title h1 {
-    /* color: var(--clr-purple-light); */
+    color: var(--clr-purple-light);
     text-align: center;
     font-family: var(--ff-style);
     font-size: var(--fs-header);
@@ -17,7 +17,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     margin-inline: auto;
-}
+} */
 .criteria-content-heading{
     color: var(--clr-blue-light);
     font-size: var(--fs-title-text);
@@ -46,8 +46,8 @@
     .criteria-content p{
         font-size: var(--fs-regular);
     }
-    #criteria .container-title h1 {
+    /* #criteria .container-title h1 {
         font-size: 32px;
         
-    }
+    } */
 }
