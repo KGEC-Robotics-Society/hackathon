@@ -118,6 +118,61 @@ header {
 
 }
 
+.vertical__line{
+  width: 2px;
+  height: 25vh;
+  background: linear-gradient( 180deg, var(--clr-blue-light), var(--clr-purple-light) );;
+  z-index: 800;
+  top: 50%;
+  margin-left: 2.25%;
+  position: fixed;
+  display: block;
+}
+nav.nav__b{
+  /* background: rgba(254, 254, 254, 0.1); */
+  width: max-content;
+  display: block;
+  padding: 0.7rem;
+  z-index: 801;
+  position: fixed;
+  left: 1%;
+  /* transform: translateX(0%); */
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* border-bottom: 2px solid rgba(254, 254, 254, 0.5); */
+  gap: 32px;
+  border-radius: 3rem;
+  /* backdrop-filter: blur(15px); */
+}
+nav.nav__b a{
+  background: #000;
+  font-size: 24px;
+  /* padding: 0.9rem; */
+  /* border-radius: 50%; */
+  display: flex;
+  color: var(--clr-blue-light);
+  /* border-bottom: 2px solid rgba(254, 254, 254, 0.5); */
+  font-size: 1.1rem;
+  /* backdrop-filter: blur(15px); */
+}
+
+nav.nav__b a:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+nav.nav__b a.Linkedin:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: #0077b5;
+}
+nav.nav__b a.Discord:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: #7289da;
+}
+nav.nav__b a:active {
+  background: #191919;
+  color: #fff;
+}
 /* SEARCH FUNCTION */
 
 .no-search {
@@ -173,6 +228,20 @@ header {
 
 /* Mobile Devices - Phones/Tablets */
 
+/* Width */
+@media only screen and (max-width: 1182px) {
+  .vertical__line{
+    left: 1.1%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .vertical__line{
+    top: 48%;
+    left: 0.7%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   /* MOBILE NAVIGATION */
 
@@ -211,5 +280,61 @@ header {
 
   .mobile-nav {
     transform: translate(0%) !important;
+  }
+  nav.nav__b{
+    left: 0%;
+
+  }
+}
+@media only screen and (max-width: 585px){
+  nav.nav__b{
+    left: -2%;
+  }
+}
+@media only screen and (max-width: 425px){
+  nav.nav__b{
+    left: -2%;
+  }
+  nav.nav__b a{
+    font-size: 12px;
+  }
+  
+}
+
+/* Height */
+@media only screen and (max-height: 915px) {
+  .vertical__line{
+    top: 85%;
+  }
+}
+@media only screen and (max-height: 896px) {
+  .vertical__line{
+    top: 55%;
+  }
+}
+@media only screen and (max-height: 844px) {
+  .vertical__line{
+    top: 55%;
+  }
+}
+@media only screen and (max-height: 740px) {
+  .vertical__line{
+    top: 53%;
+  }
+}
+@media only screen and (max-height: 677px) {
+  .vertical__line{
+    top: 50%;
+  }
+}
+@media only screen and (max-height: 640px) {
+  .vertical__line{
+    top: 53%;
+    left: .5%;
+  }
+}
+@media only screen and (max-height: 360px) {
+  .vertical__line{
+    top: 30%;
   }
 }
