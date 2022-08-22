@@ -1,0 +1,30 @@
+.container-title-PS h1{
+    text-align: center;
+    margin-left: 34%;
+    font-size: 39px;
+    color: transparent;
+    background : linear-gradient( to right, #ae0bcf, #2bbcff);
+    background-clip:text;
+    -webkit-background-clip: text;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.grid-container {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    column-gap: 50px;
+    row-gap: 50px;
+    color: white;
+    justify-content: center;
+    
+  }
+
+  .grid-item{
+      padding: 70px;
+      text-align: center;
+      align-items: center;
+      border: 2px solid #2bbcff;
+      border-radius: 10px;
+  }
