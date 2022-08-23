@@ -119,19 +119,19 @@
         </h3>
         <div class="countdown-box">
           <div class="countdown-item">
-            <span class="countdown-number">62</span>
+            <span class="countdown-number" id="days">62</span>
             <span class="countdown-title">Days</span>
           </div>
           <div class="countdown-item">
-            <span class="countdown-number">12</span>
+            <span class="countdown-number" id="hours">12</span>
             <span class="countdown-title">Hours</span>
           </div>
           <div class="countdown-item">
-            <span class="countdown-number">45</span>
+            <span class="countdown-number" id="mins">45</span>
             <span class="countdown-title">Minutes</span>
           </div>
           <div class="countdown-item">
-            <span class="countdown-number">32</span>
+            <span class="countdown-number" id="secs">32</span>
             <span class="countdown-title">Seconds</span>
           </div>
         </div>
@@ -394,7 +394,11 @@
   <section class="get-set-go-section">
     <div class="container get-set-go-container">
       <div class="container-title">
-        <h1></h1>
+        <h1 class="gradient-title">GET! SET! GO!</h1>
+        <p class="regular-text get-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime itaque magni! Officia aspernatur mollitia fuga impedit deserunt ea inventore velit repudiandae? In dolorum perferendis sit eius minima deleniti asperiores!
+        </p>
+        <a href="#" class="btn cta-btn btn-primary">Register</a>
       </div>
     </div>
   </section>
@@ -403,12 +407,33 @@
   <!-- Footer starts  -->
 
   <footer class="footer-section">
-    <div class="footer-container"></div>
+    <div class="footer-container">
+      <div class="copy-right">
+        <p class="regular-text copy-right-text">2022 @KGEC ROBOTICS SOCIETY</p>
+      </div>
+      <div class="social-media">
+        <div class="social-links">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kgec.robotics.club@kgec.edu.in" target="_blank">kgec.robotics.club@kgec.edu.in</a>
+    
+        </div>
+        <div class="social-links">
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <a href="m.me/105559067510473" target="_blank">m.me/105559067510473</a>
+        </div>
+        <div class="social-links">
+          <i class="fa-brands fa-edge"></i>
+          <a href="https://kgec robotics society.github.io/">https://kgec robotics society.github.io/</a>
+        </div>
+      </div>
+    </div>
   </footer>
   <!-- Footer ends  -->
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 <script src="./static/js/navbar.js"></script>
 <script src="./static/js/faq.js"></script>
+<script src="./static/js/timer.js"></script>
 
 </html>
