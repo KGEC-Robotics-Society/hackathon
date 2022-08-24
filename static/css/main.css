@@ -112,16 +112,16 @@ body {
 .container {
   width: 100%;
   height: 100%;
-  max-width: 1260px;
+  max-width: 1148px;
   margin-inline: auto;
-  padding: 40px 24px;
+  padding: 40px;
 }
 
 /* Button */
 
 .btn {
   font-size: 14px;
-  font-weight: var(--fw-bold);
+  font-weight: 500;
   padding: 10px 20px;
   text-align: center;
   min-width: 150px;
@@ -131,6 +131,7 @@ body {
     var(--clr-blue-dark),
     var(--clr-purple-light)
   );
+  width: max-content;
 }
 
 /* General styles */
@@ -181,6 +182,9 @@ body {
 @media only screen and (max-width: 448px) {
   .container {
     padding: 24px;
+  }
+  .gradient-title {
+    margin-bottom: 3rem;
   }
   .title-text {
     font-size: 18px;
