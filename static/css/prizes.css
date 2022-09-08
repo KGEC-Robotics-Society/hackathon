@@ -1,5 +1,38 @@
 .prize-section {
-  height: 100vh;
-  border: 2px solid var(--clr-purple-light);
+  /* height: 70vh; */
+  /* border: 2px solid var(--clr-purple-light); */
   border-radius: 16px 0 0 0;
+}
+.container{
+  /* border: 2px solid var(--clr-purple-light); */
+  
+}
+.prize-content{
+  display: flex;
+  justify-content: space-around;
+}
+.prize-text{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  font-family: var(--ff-style);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* border: 2px solid var(--clr-purple-light); */
+  
+}
+
+@media only screen and (max-width: 760px){
+  .prize-content{
+    /* border: 2px solid var(--clr-purple-light); */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.prize-text{
+  margin-bottom: 40px;
+  width: 100%;
+}
 }
