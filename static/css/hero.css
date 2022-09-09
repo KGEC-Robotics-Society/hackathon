@@ -72,15 +72,12 @@
   font-size: clamp(60px, 5vw + 16px, 96px);
   margin-bottom: 0;
 }
-.event-countdown{
-  width: max-content;
-  /* border:  2px solid var(--clr-blue-light); */
-}
+
 
 .event-title {
   font-size: 22px;
   font-family: var(--ff-style);
-  width: 100%;
+  width: auto;
 }
 
 .countdown-box {
