@@ -100,6 +100,12 @@
   color: #ebecee;
 }
 
+.faq-contact{
+  display: inline;
+  font-weight: 600;
+  color: var(--clr-blue-light);
+}
+
 @media only screen and (max-width: 448px) {
   .accordion-title,
   .accordion-content {
