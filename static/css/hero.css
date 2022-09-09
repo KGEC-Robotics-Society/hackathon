@@ -77,7 +77,7 @@
 .event-title {
   font-size: 22px;
   font-family: var(--ff-style);
-  width: auto;
+  width: auto; /*width */
 }
 
 .countdown-box {
