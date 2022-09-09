@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   /* gap: 24px; */
-  border: 2px solid transparent;
+  border: 2.5px solid transparent;
   border-radius: 16px 0 0 0;
   background-image: linear-gradient(var(--clr-main-bg), var(--clr-main-bg)),
     linear-gradient(135deg, var(--clr-blue-light), var(--clr-purple-light));
@@ -22,6 +22,18 @@
   width: 100%;
   max-width: 350px;
   margin-inline: auto;
+}
+
+.project-card p{
+  width: 90%;
+  text-transform: capitalize;
+}
+.project-card img{
+  padding: 0;
+  width: 80%;
+  border: 3px solid var(--clr-blue-light);
+  border-radius: 16px 0 0 0;
+ 
 }
 
 .project-card > * {
