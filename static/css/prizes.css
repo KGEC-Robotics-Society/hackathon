@@ -11,6 +11,9 @@
   display: flex;
   justify-content: space-around;
 }
+.prize-image img{
+  width: 35rem;
+}
 .prize-text{
   display: flex;
   align-items: center;
