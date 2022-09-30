@@ -1,4 +1,5 @@
 const hero = document.getElementById("hero");
+const headerSection = document.getElementById("headerSection");
 const header = document.querySelector(".navbar-section");
 
 $(".menu-toggle").click(function () {
@@ -16,8 +17,8 @@ const observer = new IntersectionObserver(
   },
   {
     root: null,
-    rootMargin: "",
-    threshold: "0",
+    rootMargin: "0px",
+    threshold: "0.5",
   }
 );
 
