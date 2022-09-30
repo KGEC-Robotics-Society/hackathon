@@ -5,7 +5,7 @@ const mins = document.getElementById("mins");
 const secs = document.getElementById("secs");
 
 
-var eventTime= new Date("2022-10-11").getTime(13); 
+var eventTime= new Date("2022-10-11").getTime(); 
 var currentTime = new Date().getTime();
 var diffTime = eventTime - currentTime;
 var duration = moment.duration(diffTime, 'milliseconds');
