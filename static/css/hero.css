@@ -91,16 +91,23 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding-block: 16px;
+  /* padding-block: 16px; */
   font-family: var(--ff-style);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   /* background: linear-gradient(to bottom, var(--clr-purple-dark), #005780); */
   border-radius: 16px 0 0 0;
+  
 }
 
 .countdown-item .countdown-title {
   letter-spacing: 1px;
+}
+.countdown-item img{
+  width: 100%;
+  height: 35rem;
+  margin-top: 1rem;
+
 }
 
 
